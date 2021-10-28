@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/mine"  ],
   "exclude": [
     "node_modules"
   ]

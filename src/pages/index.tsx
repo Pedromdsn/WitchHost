@@ -9,7 +9,7 @@ import Discord from "../components/Discord"
 
 const Home = () => {
 	return (
-		<div className="bg-[#222230] font-roboto">
+		<>
 			<HeadBar />
 			<div className="bg-[#a2a2f20d] mt-5 mx-28 md:mx-10 py-10 px-16 md:px-10 flex rounded-2xl ">
 				<div className="flex flex-col justify-center items-start gap-5 mr-14 md:m-0 md:text-center md:items-center">
@@ -64,7 +64,7 @@ const Home = () => {
 			</div>
 			<Discord/>
 			<FootBar/>
-		</div>
+		</>
 	)
 }
 

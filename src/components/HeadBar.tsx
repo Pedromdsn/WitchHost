@@ -17,11 +17,11 @@ const HeadBar = () => {
 				className={`flex gap-6 items-center transition-all md:overflow-hidden 
 				md:justify-end duration-200 md:text-xl
 				${mobile ? "flex-col md:h-60 md:-mb-20" : "md:h-0"}`}>
-				<Item text="Minecraft" />
+				<Item text="Minecraft" link="/minecraft/eua" />
 				<Link href="#">
 					<div
 						className="flex items-center gap-2 px-5 py-3 bg-[#e3008c] 
-						rounded text-white font-bold cursor-pointer 
+						rounded text-white font-bold cursor-pointer text-center\
 						transition-all hover:-translate-y-1 duration-300">
 						<FaFingerprint />
 						<span>Area do Cliente</span>
@@ -29,9 +29,9 @@ const HeadBar = () => {
 				</Link>
 			</div>
 			<GiHamburgerMenu
-				className="hidden md:flex md:absolute top-12 right-20"
+				className="hidden md:flex md:absolute top-16 right-10"
 				color="#fff"
-				size={60}
+				size={40}
 				onClick={() => setMobile(!mobile)}
 			/>
 		</nav>
@@ -45,8 +45,8 @@ interface ItemTypes {
 
 const Logo = () => {
 	return (
-		<div className="w-20 h-20 cursor-pointer md:absolute top-10 left-20">
-			<Link href="#">
+		<div className="w-20 h-20 cursor-pointer md:absolute top-10 left-10">
+			<Link href="/">
 				<Image src={logo} quality={1} />
 			</Link>
 		</div>
