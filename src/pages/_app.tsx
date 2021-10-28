@@ -1,7 +1,7 @@
 import Header from "next/head"
 
 import "tailwindcss/tailwind.css"
-import "../style/tailwind.css"
+import "../style/index.css"
 
 function MyApp({ Component, pageProps }) {
 	return (

@@ -5,6 +5,7 @@ import Card from "../components/home/Card"
 import { MainImage } from "../asserts/svg"
 import { BiWorld } from "react-icons/bi"
 import FootBar from "../components/FootBar"
+import Discord from "../components/Discord"
 
 const Home = () => {
 	return (
@@ -61,6 +62,7 @@ const Home = () => {
 					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
 				/>
 			</div>
+			<Discord/>
 			<FootBar/>
 		</div>
 	)
