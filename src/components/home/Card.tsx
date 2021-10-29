@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card = ({ Icon, title, text }: CardProps) => {
 	return (
-		<div className="bg-[#a2a2f20d] min-w-[200px] w-[25vw] md:w-[70vw] md:px-10 md:py-10
+		<div className="bg-[#a2a2f20d] min-w-[300px] w-[20vw] max-w-[500px] md:w-[70vw] md:px-10 md:py-10
 		px-5 py-5 rounded-xl gap-3 flex flex-col 
 		justify-around items-center text-center
 		hover:-translate-y-2 transition-all duration-300">

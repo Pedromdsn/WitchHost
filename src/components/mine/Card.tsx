@@ -11,7 +11,7 @@ interface MineCardProps {
 const MineCard = ({ image, ram = 0, link = "#" }: MineCardProps) => {
 	return (
 		<div
-			className="bg-[#181827] flex flex-col justify-center items-center text-center
+			className="bg-[#181827] w-[30vw] max-w-[400px] min-w-[300px] flex flex-col justify-center items-center text-center
 		 	px-8 py-6 rounded-xl hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
 			<div>
 				<Image src={image} quality={20} height={150} width={160} />

@@ -18,7 +18,7 @@ const Button = ({ local, ping, image, ativo = false, link = "#" }: ButtonProps) 
 				<div>
 					<Image src={image} quality={1} height={70} width={70} />
 				</div>
-				<div className="flex flex-col justify-center lg:hidden">
+				<div className="flex flex-col justify-center md:hidden">
 					<h2 className="text-base text-gray-300 font-bold">{local}</h2>
 					<h3 className="text-base text-gray-300 font-bold">Ping médio {ping}ms</h3>
 				</div>

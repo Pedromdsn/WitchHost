@@ -11,7 +11,7 @@ const Home = () => {
 	return (
 		<>
 			<HeadBar />
-			<div className="bg-[#a2a2f20d] mt-5 mx-28 md:mx-10 py-10 px-16 md:px-10 flex rounded-2xl ">
+			<div className="bg-[#a2a2f20d] mt-5 py-10 px-16 md:px-10 flex rounded-2xl mx-auto w-[90vw] max-w-[1300px]">
 				<div className="flex flex-col justify-center items-start gap-5 mr-14 md:m-0 md:text-center md:items-center">
 					<h1 className="text-4xl text-blue-500 font-bold">SEU FUTURO ESTÁ AQUI.</h1>
 					<h2 className="text-xl text-[#9e9e9e]">
@@ -30,7 +30,7 @@ const Home = () => {
 				<div className="lg:hidden">{MainImage}</div>
 			</div>
 
-			<div className="flex flex-wrap gap-10 mt-20 mx-24 justify-center">
+			<div className="flex flex-wrap gap-10 mt-20 justify-center mx-auto w-[90vw] max-w-[1300px]">
 				<Card
 					Icon={BiWorld}
 					title="Subdomínio GRÁTIS"
