@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const Button = ({ local, ping, image, ativo = false, link = "#" }: ButtonProps) => {
 	return (
-		<Link href={link}>
+		<Link href={link} scroll={false}>
 			<div
 				className={`flex justify-around bg-[#111122]
 				rounded-md px-6 py-4 gap-4 ${ativo && "ring-1 ring-green-500"}

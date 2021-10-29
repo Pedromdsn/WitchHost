@@ -1,11 +1,12 @@
 import HeadBar from "../components/HeadBar"
 import Link from "next/link"
 import Card from "../components/home/Card"
+import FootBar from "../components/FootBar"
+import Discord from "../components/Discord"
 
 import { MainImage } from "../asserts/svg"
 import { BiWorld } from "react-icons/bi"
-import FootBar from "../components/FootBar"
-import Discord from "../components/Discord"
+import { HiArrowNarrowRight } from "react-icons/hi"
 
 const Home = () => {
 	return (
@@ -18,12 +19,12 @@ const Home = () => {
 						Hospedamos seu projeto com um toque de mágica! Prezamos por segurança, agilidade e sucesso para a sua
 						instância! <span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help">SURPRESO?</span>
 					</h2>
-					<Link href="#">
+					<Link href="/minecraft/eua">
 						<div
 							className="px-7 py-3 bg-blue-600 cursor-pointer
 							rounded-lg text-white text-lg hover:brightness-90
-							transition-all duration-150">
-							Comesse aqui...
+							transition-all duration-150 flex justify-center items-center">
+							Comesse aqui <HiArrowNarrowRight color="#fff" size={20}/>
 						</div>
 					</Link>
 				</div>
