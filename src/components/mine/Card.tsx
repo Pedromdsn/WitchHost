@@ -5,10 +5,11 @@ import { FaCheckDouble } from "react-icons/fa"
 interface MineCardProps {
 	image: StaticImageData
 	ram?: number
+	price?: number
 	link?: string
 }
 
-const MineCard = ({ image, ram = 0, link = "#" }: MineCardProps) => {
+const MineCard = ({ image, ram = 0, price = 0, link = "#" }: MineCardProps) => {
 	return (
 		<div
 			className="bg-[#181827] w-[300px] flex flex-col justify-center items-center text-center
@@ -18,7 +19,7 @@ const MineCard = ({ image, ram = 0, link = "#" }: MineCardProps) => {
 			</div>
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-3xl font-bold text-gray-400">{ram}GB de RAM</h1>
-				<h2 className="text-2xl font-bold text-gray-100">R{ram * 4},00/mês</h2>
+				<h2 className="text-2xl font-bold text-gray-100">R{price},00/mês</h2>
 			</div>
 			<Link href={link}>
 				<div
