@@ -1,3 +1,12 @@
 module.exports = {
-	swcMinify: false,
+	swcMinify: true,
+	async redirects() {
+    return [
+      {
+        source: '/minecraft',
+        destination: '/minecraft/eua',
+        permanent: true,
+      },
+    ]
+  },
 }
