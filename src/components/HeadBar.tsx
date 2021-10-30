@@ -11,7 +11,7 @@ const HeadBar = () => {
 	const [mobile, setMobile] = useState(false)
 
 	return (
-		<nav className="py-4 flex justify-between items-center px-32 md:justify-center md:mb-40">
+		<nav className="py-4 flex justify-between items-center px-32 md:px-2 md:justify-center md:mb-40">
 			<Logo />
 			<div
 				className={`flex gap-6 items-center transition-all md:overflow-hidden 
