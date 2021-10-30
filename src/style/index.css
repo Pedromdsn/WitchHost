@@ -1,3 +1,9 @@
+:root {
+	--scrollbar-scroll: #5352ed;
+	--scrollbar-background: #212530;
+	--scrollbar-width: 7px;
+}
+
 * {
 	user-select: none;
 }
@@ -6,15 +12,20 @@ html {
 	scroll-behavior: smooth;
 }
 
+/*ScrollBar*/
+html {
+	scrollbar-color: var(--scrollbar-scroll) var(--scrollbar-background);
+}
+
 ::-webkit-scrollbar {
-	width: 10px;
+	width: var(--scrollbar-width);
 }
 
 ::-webkit-scrollbar-track {
-	background: #212530;
+	background: var(--scrollbar-background);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #5352ed;
+	background: var(--scrollbar-scroll);
 	border-radius: 15px;
 }
