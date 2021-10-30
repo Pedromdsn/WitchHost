@@ -39,28 +39,28 @@ const Home = () => {
 				/>
 				<Card
 					Icon={BiWorld}
-					title="Subdomínio GRÁTIS"
-					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
+					title="Painel 100% customizado"
+					text="O painel da WitchHost contêm uma interface personalizada para a melhor visualização e entendimento."
 				/>
 				<Card
 					Icon={BiWorld}
-					title="Subdomínio GRÁTIS"
-					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
+					title="Uptime de 99.9%"
+					text="A disponibilidade do seu serviço é uma de nossas prioridades por isso conte com o melhor serviço e suporte!"
 				/>
 				<Card
 					Icon={BiWorld}
-					title="Subdomínio GRÁTIS"
-					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
+					title="Proteção contra DDoS"
+					text="Nossos servidores dedicados são protegidos por nossa proteção Anti-DDoS e sistemas de mitigação automáticos."
 				/>
 				<Card
 					Icon={BiWorld}
-					title="Subdomínio GRÁTIS"
-					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
+					title="Ativação Instantânea"
+					text="Por que esperar pelo seu serviço após fazer o pagamento? Entregamos seu servidor instantaneamente após a confirmação de pagamento."
 				/>
 				<Card
 					Icon={BiWorld}
-					title="Subdomínio GRÁTIS"
-					text="A WitchHost disponibiliza vários tipos de subdomínio para o seu servidor de minecraft!"
+					title="Servidor sempre online"
+					text="Seus servidores não dormem e nós também não. Tentamos garantir o máximo de uptime para todos os clientes."
 				/>
 			</div>
 			<Discord/>
