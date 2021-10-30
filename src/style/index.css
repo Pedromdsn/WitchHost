@@ -1,3 +1,15 @@
+* {
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -14,8 +26,4 @@
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
-}
-
-html {
-	scroll-behavior: smooth;
 }
