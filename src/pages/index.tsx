@@ -17,13 +17,13 @@ const Home = () => {
 					<h1 className="text-4xl text-blue-500 font-bold">SEU FUTURO ESTÁ AQUI.</h1>
 					<h2 className="text-xl text-[#9e9e9e]">
 						Hospedamos seu projeto com um toque de mágica! Prezamos por segurança, agilidade e sucesso para a sua
-						instância! <span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help">SURPRESO?</span>
+						instância! <span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help text-lg">SURPRESO?</span>
 					</h2>
 					<Link href="/minecraft/eua">
 						<div
-							className="px-7 py-3 bg-blue-600 cursor-pointer
+							className="px-7 py-3 bg-blue-600 cursor-pointer w-52
 							rounded-lg text-white text-lg hover:brightness-90
-							transition-all duration-150 flex justify-center items-center">
+							transition-all duration-150 flex justify-around items-center">
 							Comesse aqui <HiArrowNarrowRight color="#fff" size={20}/>
 						</div>
 					</Link>

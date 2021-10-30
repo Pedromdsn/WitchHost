@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Header>
 				<title>A melhor hospedagem é aqui!</title>
-				<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+				<link rel="icon" type="image/icon" sizes="16x16" href="/favicon.ico" />
 				<meta name="description" content="Minecraft host a um preço super gostoso." />
 				<meta name="author" content="Coco Blanco" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
