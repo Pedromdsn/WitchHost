@@ -20,10 +20,5 @@ html {
 
 ::-webkit-scrollbar-thumb {
 	background: #5352ed;
-	background-color: #5352ed;
 	border-radius: 15px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
 }
