@@ -1,8 +1,8 @@
-import HeadBar from "../components/HeadBar"
+import HeadBar from "@/components/HeadBar"
 import Link from "next/link"
-import Card from "../components/home/Card"
-import FootBar from "../components/FootBar"
-import Discord from "../components/Discord"
+import Card from "@/components/home/Card"
+import FootBar from "@/components/FootBar"
+import Discord from "@/components/Discord"
 
 import { MainImage } from "../asserts/svg"
 import { BiWorld } from "react-icons/bi"
