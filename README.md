@@ -24,4 +24,4 @@ In the styling of the site was used [Tailwindcss](https://tailwindcss.com/).
 
 Discord: Coco Blanco#3873
 
-Site: https://cocoblanco.fun
+Site: https://pedromdsn.com
