@@ -38,7 +38,7 @@ const Minecraft = ({ eua, br }: MinecraftProps) => {
 					</div>
 				</div>
 				<div className="lg:hidden">
-					<Image src={Mine} quality={30}/>
+					<Image src={Mine} quality={30} priority/>
 				</div>
 			</div>
 
@@ -46,7 +46,7 @@ const Minecraft = ({ eua, br }: MinecraftProps) => {
 				<div className="flex flex-col gap-3 py-20 ">
 					<div className="flex gap-3 md:justify-center">
 						<Button image={EUA} local="Estados Unidos, Virginia" ping={120} link="/minecraft/eua" ativo={eua} />
-						<Button image={BR} local="Brasil, São Paulo (Em breve)" ping={20} link="/minecraft/br" ativo={br} />
+						<Button image={BR} local="Brasil, São Paulo" ping={20} link="/minecraft/br" ativo={br} />
 					</div>
 					<div className="flex flex-col text-gray-400 font-bold my-10 md:text-center">
 						<h1 className="text-2xl">Vamos escolher um plano que atenda suas necessidades: </h1>
@@ -54,7 +54,7 @@ const Minecraft = ({ eua, br }: MinecraftProps) => {
 					</div>
 				</div>
 				<div className="w-1/3 lg:hidden">
-					<Image src={Mine2} quality={10} />
+					<Image src={Mine2} quality={15} priority/>
 				</div>
 			</div>
 		</>

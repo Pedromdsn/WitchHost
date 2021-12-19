@@ -15,7 +15,7 @@ const MineCard = ({ image, ram = 0, price = 0, link = "#" }: MineCardProps) => {
 			className="bg-[#181827] w-[320px] flex flex-col justify-center items-center text-center
 		 	px-8 py-6 rounded-xl hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
 			<div>
-				<Image src={image} quality={20} height={150} width={160} />
+				<Image src={image} quality={33} height={150} width={160} />
 			</div>
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-3xl font-bold text-gray-400">{ram}GB de RAM</h1>
