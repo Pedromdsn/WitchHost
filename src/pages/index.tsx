@@ -4,34 +4,35 @@ import Card from "@/components/home/Card"
 import FootBar from "@/components/FootBar"
 import Discord from "@/components/Discord"
 
-import { MainImage } from "../asserts/svg"
 import { BiWorld } from "react-icons/bi"
 import { HiArrowNarrowRight } from "react-icons/hi"
+import IntroImage from "@/components/home/IntroImage"
 
 const Home = () => {
 	return (
 		<>
 			<HeadBar />
-			<div className="bg-[#a2a2f20d] mt-5 py-10 px-16 md:px-10 flex rounded-2xl mx-auto w-[90vw] max-w-[1300px]">
+			<section className="bg-[#a2a2f20d] mt-5 py-10 px-16 md:px-10 flex rounded-2xl mx-auto w-[90vw] max-w-[1300px]">
 				<div className="flex flex-col justify-center items-start gap-5 mr-14 md:m-0 md:text-center md:items-center">
 					<h1 className="text-4xl text-blue-500 font-bold">SEU FUTURO ESTÁ AQUI.</h1>
 					<h2 className="text-xl text-[#9e9e9e]">
 						Hospedamos seu projeto com um toque de mágica! Prezamos por segurança, agilidade e sucesso para a sua
-						instância! <span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help text-lg">SURPRESO?</span>
+						instância!{" "}
+						<span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help text-lg">SURPRESO?</span>
 					</h2>
 					<Link href="/minecraft/eua">
 						<div
 							className="px-7 py-3 bg-blue-600 cursor-pointer w-52
 							rounded-lg text-white text-lg hover:brightness-90
 							transition-all duration-150 flex justify-around items-center">
-							Comesse aqui <HiArrowNarrowRight color="#fff" size={20}/>
+							Comesse aqui <HiArrowNarrowRight color="#fff" size={20} />
 						</div>
 					</Link>
 				</div>
-				<div className="lg:hidden">{MainImage}</div>
-			</div>
+				<IntroImage/>
+			</section>
 
-			<div className="flex flex-wrap gap-10 mt-20 justify-center mx-auto w-[90vw] max-w-[1300px]">
+			<section className="flex flex-wrap gap-10 mt-20 justify-center mx-auto w-[90vw] max-w-[1300px]">
 				<Card
 					Icon={BiWorld}
 					title="Subdomínio GRÁTIS"
@@ -62,9 +63,9 @@ const Home = () => {
 					title="Servidor sempre online"
 					text="Seus servidores não dormem e nós também não. Tentamos garantir o máximo de uptime para todos os clientes."
 				/>
-			</div>
-			<Discord/>
-			<FootBar/>
+			</section>
+			<Discord />
+			<FootBar />
 		</>
 	)
 }

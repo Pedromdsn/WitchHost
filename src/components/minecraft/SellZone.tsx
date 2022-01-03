@@ -1,5 +1,5 @@
 interface MinecraftSellZoneProps {
-	children: React.ReactNode
+	children: JSX.Element[]
 }
 
 const MinecraftSellZone = ({ children }: MinecraftSellZoneProps) => {

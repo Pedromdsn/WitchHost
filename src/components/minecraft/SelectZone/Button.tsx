@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+
 interface ButtonProps {
 	image: StaticImageData
 	local: string

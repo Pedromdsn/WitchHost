@@ -1,10 +1,8 @@
-import { useRef } from "react"
-
 import HeadBar from "@/components/HeadBar"
-import Minecraft from "@/components/mine"
+import Minecraft from "@/components/minecraft"
 import FootBar from "@/components/FootBar"
-import MineCard from "@/components/mine/Card/Card"
-import MinecraftSellZone from "@/components/mine/SellZone"
+import MineCard from "@/components/minecraft/SelectZone/Card"
+import MinecraftSellZone from "@/components/minecraft/SellZone"
 
 import earth from "@/public/mine/earth.png"
 import grass from "@/public/mine/grass.png"
@@ -17,11 +15,11 @@ import emerald from "@/public/mine/emerald.png"
 import obsidian from "@/public/mine/obsidian.png"
 
 const MinecraftEua = () => {
-	const move = useRef()
+
 	return (
 		<>
 			<HeadBar />
-			<Minecraft eua />
+			<Minecraft />
 			<MinecraftSellZone>
 				<MineCard image={earth} ram={2} price={8} link="#" />
 				<MineCard image={grass} ram={4} price={16} link="#" />
