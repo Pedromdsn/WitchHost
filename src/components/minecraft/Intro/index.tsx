@@ -22,8 +22,8 @@ const Intro = () => {
 						<HiArrowNarrowRight color="#fff" size={20} />
 					</div>
 				</Link>
-				<IslandImage />
 			</div>
+			<IslandImage />
 		</section>
 	)
 }
