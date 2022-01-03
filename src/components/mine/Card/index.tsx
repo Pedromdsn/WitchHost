@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { FaCheckDouble } from "react-icons/fa"
+import Line from "./Line"
 
 interface MineCardProps {
 	image: StaticImageData
@@ -41,17 +41,5 @@ const MineCard = ({ image, ram = 0, price = 0, link = "#" }: MineCardProps) => {
 	)
 }
 
-interface LineProps {
-	text: string
-}
-
-const Line = ({ text }: LineProps) => {
-	return (
-		<div className="flex items-center gap-1">
-			<FaCheckDouble color="#00ee00" />
-			<h4>{text}</h4>
-		</div>
-	)
-}
 
 export default MineCard

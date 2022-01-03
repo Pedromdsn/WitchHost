@@ -15,9 +15,6 @@ interface MinecraftProps {
 }
 
 const Minecraft = ({ eua, br }: MinecraftProps) => {
-	const move = useRef(null)
-	const executeScroll = () => move.current.scrollIntoView()
-
 	return (
 		<>
 			<div className="bg-[#a2a2f20d] mt-5 py-10 px-16 md:px-10 flex rounded-2xl mx-auto w-[90vw] max-w-[1500px]"> 
@@ -32,7 +29,7 @@ const Minecraft = ({ eua, br }: MinecraftProps) => {
 						className="px-7 py-3 flex items-center gap-2 bg-blue-600 cursor-pointer
 							rounded-lg text-white text-lg hover:brightness-90
 							transition-all duration-150"
-						onClick={() => executeScroll()}>
+						>
 						Escolha o Plano
 						<HiArrowNarrowRight color="#fff" size={20}/>
 					</div>

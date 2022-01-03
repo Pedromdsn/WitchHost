@@ -3,7 +3,7 @@ import { useRef } from "react"
 import HeadBar from "@/components/HeadBar"
 import Minecraft from "@/components/mine"
 import FootBar from "@/components/FootBar"
-import MineCard from "@/components/mine/Card"
+import MineCard from "@/components/mine/Card/Card"
 import MinecraftSellZone from "@/components/mine/SellZone"
 
 import earth from "@/public/mine/earth.png"
