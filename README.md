@@ -1,4 +1,4 @@
-# Hyperium site
+# WitchHost site
 
 ## A portfolio site, made using the latest technologies.
 
