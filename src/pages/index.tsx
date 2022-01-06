@@ -20,16 +20,17 @@ const Home = () => {
 						instância!{" "}
 						<span className="text-white px-2 bg-blue-600 rounded font-bold cursor-help text-lg">SURPRESO?</span>
 					</h2>
-					<Link href="/minecraft/eua">
-						<div
+					<Link href="/minecraft/eua" passHref>
+						<a
+							data-cy="send-to-mine"
 							className="px-7 py-3 bg-blue-600 cursor-pointer w-52
 							rounded-lg text-white text-lg hover:brightness-90
 							transition-all duration-150 flex justify-around items-center">
 							Comesse aqui <HiArrowNarrowRight color="#fff" size={20} />
-						</div>
+						</a>
 					</Link>
 				</div>
-				<IntroImage/>
+				<IntroImage />
 			</section>
 
 			<section className="flex flex-wrap gap-10 mt-20 justify-center mx-auto w-[90vw] max-w-[1300px]">
