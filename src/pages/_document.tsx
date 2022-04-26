@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="pt-pt">
         <Head>
           <link rel="icon" type="image/icon" sizes="16x16" href="/favicon.ico" />
           <meta name="description" content="Minecraft host a um preço super gostoso." />

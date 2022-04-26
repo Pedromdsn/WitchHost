@@ -34,7 +34,7 @@ const Logo = () => {
 	return (
 		<div className="w-20 h-20 cursor-pointer md:absolute top-10 left-10">
 			<Link href="/">
-				<Image src={logo} quality={1} />
+				<Image src={logo} quality={1} alt="Logo"/>
 			</Link>
 		</div>
 	)
