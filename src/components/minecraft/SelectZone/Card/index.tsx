@@ -3,7 +3,7 @@ import Link from "next/link"
 import Line from "./Line"
 
 interface MineCardProps {
-	image: StaticImageData
+	image: any
 	ram?: number
 	price?: number
 	link?: string

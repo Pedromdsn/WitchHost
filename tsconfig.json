@@ -1,14 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "types": [
-      "cypress"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["cypress"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -23,22 +17,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components/*": [
-        "src/components/*"
-      ],
-      "@/public/*": [
-        "public/*"
-      ]
+      "@/components/*": ["src/components/*"],
+      "@/public/*": ["public/*"],
+      "@/asserts/*": ["src/asserts/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/components/minecraft",
-    "cypress/integration/app.spec.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/minecraft", "cypress/integration/app.spec.ts"],
+  "exclude": ["node_modules"]
 }

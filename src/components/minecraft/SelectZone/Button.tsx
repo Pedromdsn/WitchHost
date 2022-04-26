@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 interface ButtonProps {
-	image: StaticImageData
+	image: any
 	local: string
 	ping: number
 	ativo?: boolean
