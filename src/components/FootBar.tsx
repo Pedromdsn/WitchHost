@@ -8,7 +8,7 @@ const FootBar = () => {
 			<h4 className="flex flex-wrap justify-center items-center">
 				{Dev} Desenvolvido por 
 				<Link href="https://pedromdsn.com" passHref>
-					<a className="font-bold ml-[0.5ch]">Coco Blanco</a>
+					<a className="font-bold ml-[0.5ch]">Pedromdsn</a>
 				</Link>
 			</h4>
 		</footer>
