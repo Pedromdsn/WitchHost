@@ -26,7 +26,7 @@ const Home = () => {
 							rounded-lg text-white text-lg hover:brightness-90
 							transition-all duration-150 flex justify-around items-center"
             >
-              Comesse aqui <HiArrowNarrowRight color="#fff" size={20} />
+              Comece aqui <HiArrowNarrowRight color="#fff" size={20} />
             </a>
           </Link>
         </div>
