@@ -15,25 +15,24 @@ import emerald from "@/public/mine/emerald.png"
 import obsidian from "@/public/mine/obsidian.png"
 
 const MinecraftEua = () => {
-
-	return (
-		<>
-			<HeadBar />
-			<Minecraft />
-			<MinecraftSellZone>
-				<MineCard image={earth} ram={2} price={8} link="#" />
-				<MineCard image={grass} ram={4} price={16} link="#" />
-				<MineCard image={cobblestone} ram={6} price={24} link="#" />
-				<MineCard image={coal} ram={8} price={32} link="#" />
-				<MineCard image={iron} ram={10} price={40} link="#" />
-				<MineCard image={redstone} ram={12} price={48} link="#" />
-				<MineCard image={diamond} ram={16} price={64} link="#" />
-				<MineCard image={emerald} ram={24} price={96} link="#" />
-				<MineCard image={obsidian} ram={32} price={128} link="#" />
-			</MinecraftSellZone>
-			<FootBar />
-		</>
-	)
+  return (
+    <>
+      <HeadBar />
+      <Minecraft />
+      <MinecraftSellZone>
+        <MineCard image={earth} ram={2} price={8} link="#" />
+        <MineCard image={grass} ram={4} price={16} link="#" />
+        <MineCard image={cobblestone} ram={6} price={24} link="#" />
+        <MineCard image={coal} ram={8} price={32} link="#" />
+        <MineCard image={iron} ram={10} price={40} link="#" />
+        <MineCard image={redstone} ram={12} price={48} link="#" />
+        <MineCard image={diamond} ram={16} price={64} link="#" />
+        <MineCard image={emerald} ram={24} price={96} link="#" />
+        <MineCard image={obsidian} ram={32} price={128} link="#" />
+      </MinecraftSellZone>
+      <FootBar />
+    </>
+  )
 }
 
 export default MinecraftEua
